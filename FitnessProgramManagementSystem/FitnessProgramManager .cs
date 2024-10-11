@@ -9,12 +9,12 @@ namespace FitnessProgramManagementSystem
 {
     internal class FitnessProgramManager
     {
-        public List<FitnessProgram> FitnessProgramList = new List<FitnessProgram>();
+        public List<IndividualFitnessProgram> FitnessProgramList = new List<IndividualFitnessProgram>();
 
-        public void CreateFitnessProgram(FitnessProgram fitnessProgram)
+        public void CreateFitnessProgram(IndividualFitnessProgram fitnessProgram)
         {
-            decimal price=ValidatePrice(fitnessProgram.GetPrice());
-            fitnessProgram.SetPrice(price.ToString());
+            //decimal price = ValidatePrice(fitnessProgram.GetPrice());
+            //fitnessProgram.SetPrice(price.ToString());
             FitnessProgramList.Add(fitnessProgram);
             Console.WriteLine("Program Added successfully");
         }
@@ -23,10 +23,10 @@ namespace FitnessProgramManagementSystem
             foreach (var item in FitnessProgramList)
             {
                 item.ToString();//or the other code
-                Console.WriteLine($"fitnessProgramId :{item.GetFitnessProgramId()} \ntitle :{item.GetTitle()}\nduration :{item.GetDuration()} \nprice :{item.GetPrice()}");
+                Console.WriteLine($"fitnessProgramId :{item.GetFitnessProgramId()} \ntitle :{item.GetTitle()}\nduration :{item.GetDuration()} \nprice :{item.GetPrice()} \nSubscriptionType :{item.SubscriptionType} \n NeedPersonalTrainer :{item.NeedPersonalTrainer}");
             }
         }
-        public void UpdateFitnessProgram(FitnessProgram fitnessProgram)
+        public void UpdateFitnessProgram(IndividualFitnessProgram fitnessProgram)
         {
             var UpdateProgram = FitnessProgramList.SingleOrDefault(i => i.GetFitnessProgramId() == fitnessProgram.GetFitnessProgramId());
             if (UpdateProgram == null)

@@ -54,7 +54,7 @@ namespace FitnessProgramManagementSystem
                 }
             }
         }
-        public static FitnessProgram ProgramObject()
+        public static IndividualFitnessProgram ProgramObject()
         {
             Console.WriteLine("fitnessProgramId :");
             string id = Console.ReadLine();
@@ -64,7 +64,11 @@ namespace FitnessProgramManagementSystem
             string Duration = Console.ReadLine();
             Console.WriteLine("fitnessProgram Price :");
             string Price = Console.ReadLine();
-            FitnessProgram fitnessProgram=new FitnessProgram(id,Title,Duration, Price);
+            Console.WriteLine("fitnessProgram SubscriptionType :");
+            string SubscriptionType = Console.ReadLine(); 
+            Console.WriteLine("fitnessProgram NeedPersonalTrainer :");
+            string NeedPersonalTrainer = Console.ReadLine();
+            IndividualFitnessProgram fitnessProgram =new IndividualFitnessProgram(SubscriptionType,NeedPersonalTrainer, id, Title, Duration, Price);
             return fitnessProgram;
         }
         public static string GetId()
