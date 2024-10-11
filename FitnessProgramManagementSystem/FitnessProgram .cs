@@ -47,6 +47,10 @@ namespace FitnessProgramManagementSystem
         {
             return $"fitnessProgramId :{fitnessProgramId} \ntitle :{title}\nduration :{duration} \nprice :{price}";
         }
+        public virtual void DisplayFitnessProgramInfo()
+        {
+            Console.WriteLine($"fitnessProgramId :{fitnessProgramId} \ntitle :{title}\nduration :{duration} \nprice :{price}");
+        }
     }
 
 }
