@@ -24,9 +24,9 @@ namespace FitnessProgramManagementSystem
                 Console.WriteLine($"fitnessProgramId :{item.GetFitnessProgramId()} \ntitle :{item.GetTitle()}\nduration :{item.GetDuration()} \nprice :{item.GetPrice()}");
             }
         }
-        public void UpdateFitnessProgram(string id,string title,string duration,string price)
+        public void UpdateFitnessProgram(FitnessProgram fitnessProgram)
         {
-            var UpdateProgram=FitnessProgramList.SingleOrDefault(i=>i.GetFitnessProgramId()==id);
+            var UpdateProgram=FitnessProgramList.SingleOrDefault(i=>i.GetFitnessProgramId()== fitnessProgram.GetFitnessProgramId());
             if (UpdateProgram ==null)
             {
                 Console.WriteLine("Program not founded");
@@ -34,7 +34,6 @@ namespace FitnessProgramManagementSystem
             else
             {
                 FitnessProgramList.Remove(UpdateProgram);
-                FitnessProgram fitnessProgram = new FitnessProgram(id,title,duration,price);
                 FitnessProgramList.Add(fitnessProgram );
                 Console.WriteLine("Program Udated Successfully");
             }
