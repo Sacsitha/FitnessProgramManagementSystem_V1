@@ -1,0 +1,7 @@
+C:\Users\ut01410\Desktop\Practical Exam\FitnessProgramManagementSystem\FitnessProgramManagementSystem\bin\Debug\FitnessProgramManagementSystem.exe.config
+C:\Users\ut01410\Desktop\Practical Exam\FitnessProgramManagementSystem\FitnessProgramManagementSystem\bin\Debug\FitnessProgramManagementSystem.exe
+C:\Users\ut01410\Desktop\Practical Exam\FitnessProgramManagementSystem\FitnessProgramManagementSystem\bin\Debug\FitnessProgramManagementSystem.pdb
+C:\Users\ut01410\Desktop\Practical Exam\FitnessProgramManagementSystem\FitnessProgramManagementSystem\obj\Debug\FitnessProgramManagementSystem.csproj.AssemblyReference.cache
+C:\Users\ut01410\Desktop\Practical Exam\FitnessProgramManagementSystem\FitnessProgramManagementSystem\obj\Debug\FitnessProgramManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\ut01410\Desktop\Practical Exam\FitnessProgramManagementSystem\FitnessProgramManagementSystem\obj\Debug\FitnessProgramManagementSystem.exe
+C:\Users\ut01410\Desktop\Practical Exam\FitnessProgramManagementSystem\FitnessProgramManagementSystem\obj\Debug\FitnessProgramManagementSystem.pdb
