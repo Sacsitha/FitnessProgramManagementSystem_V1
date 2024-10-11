@@ -21,9 +21,27 @@ namespace FitnessProgramManagementSystem
             duration = Duration;
             price = Price;
         }
+        
 
         public FitnessProgram()
         {
+        }
+
+        public string GetFitnessProgramId()
+        {
+            return fitnessProgramId;
+        }
+        public string GetTitle()
+        {
+            return title;
+        }
+        public string GetDuration()
+        {
+            return duration;
+        }
+        public string GetPrice()
+        {
+            return price;
         }
         public override string ToString()
         {

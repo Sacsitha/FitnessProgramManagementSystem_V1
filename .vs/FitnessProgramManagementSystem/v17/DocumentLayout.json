@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ut01410\\Desktop\\Practical Exam\\FitnessProgramManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E6D0162E-A75E-49F5-8FD3-EF9E05B6A7D4}|FitnessProgramManagementSystem\\FitnessProgramManagementSystem.csproj|C:\\Users\\ut01410\\Desktop\\Practical Exam\\FitnessProgramManagementSystem\\fitnessprogrammanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6D0162E-A75E-49F5-8FD3-EF9E05B6A7D4}|FitnessProgramManagementSystem\\FitnessProgramManagementSystem.csproj|solutionrelative:fitnessprogrammanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6D0162E-A75E-49F5-8FD3-EF9E05B6A7D4}|FitnessProgramManagementSystem\\FitnessProgramManagementSystem.csproj|c:\\users\\ut01410\\desktop\\practical exam\\fitnessprogrammanagementsystem\\fitnessprogrammanagementsystem\\fitnessprogrammanager .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D0162E-A75E-49F5-8FD3-EF9E05B6A7D4}|FitnessProgramManagementSystem\\FitnessProgramManagementSystem.csproj|solutionrelative:fitnessprogrammanagementsystem\\fitnessprogrammanager .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6D0162E-A75E-49F5-8FD3-EF9E05B6A7D4}|FitnessProgramManagementSystem\\FitnessProgramManagementSystem.csproj|c:\\users\\ut01410\\desktop\\practical exam\\fitnessprogrammanagementsystem\\fitnessprogrammanagementsystem\\fitnessprogram .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E6D0162E-A75E-49F5-8FD3-EF9E05B6A7D4}|FitnessProgramManagementSystem\\FitnessProgramManagementSystem.csproj|C:\\Users\\ut01410\\Desktop\\Practical Exam\\FitnessProgramManagementSystem\\fitnessprogrammanagementsystem\\fitnessprogram .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6D0162E-A75E-49F5-8FD3-EF9E05B6A7D4}|FitnessProgramManagementSystem\\FitnessProgramManagementSystem.csproj|solutionrelative:fitnessprogrammanagementsystem\\fitnessprogram .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D0162E-A75E-49F5-8FD3-EF9E05B6A7D4}|FitnessProgramManagementSystem\\FitnessProgramManagementSystem.csproj|c:\\users\\ut01410\\desktop\\practical exam\\fitnessprogrammanagementsystem\\fitnessprogrammanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D0162E-A75E-49F5-8FD3-EF9E05B6A7D4}|FitnessProgramManagementSystem\\FitnessProgramManagementSystem.csproj|solutionrelative:fitnessprogrammanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FitnessProgramManager .cs",
+              "DocumentMoniker": "C:\\Users\\ut01410\\Desktop\\Practical Exam\\FitnessProgramManagementSystem\\FitnessProgramManagementSystem\\FitnessProgramManager .cs",
+              "RelativeDocumentMoniker": "FitnessProgramManagementSystem\\FitnessProgramManager .cs",
+              "ToolTip": "C:\\Users\\ut01410\\Desktop\\Practical Exam\\FitnessProgramManagementSystem\\FitnessProgramManagementSystem\\FitnessProgramManager .cs",
+              "RelativeToolTip": "FitnessProgramManagementSystem\\FitnessProgramManager .cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T04:40:35.868Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -32,20 +49,20 @@
               "RelativeDocumentMoniker": "FitnessProgramManagementSystem\\FitnessProgram .cs",
               "ToolTip": "C:\\Users\\ut01410\\Desktop\\Practical Exam\\FitnessProgramManagementSystem\\FitnessProgramManagementSystem\\FitnessProgram .cs",
               "RelativeToolTip": "FitnessProgramManagementSystem\\FitnessProgram .cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAIA9wA0AAAAtAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAawDEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-11T04:02:55.563Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ut01410\\Desktop\\Practical Exam\\FitnessProgramManagementSystem\\FitnessProgramManagementSystem\\Program.cs",
               "RelativeDocumentMoniker": "FitnessProgramManagementSystem\\Program.cs",
               "ToolTip": "C:\\Users\\ut01410\\Desktop\\Practical Exam\\FitnessProgramManagementSystem\\FitnessProgramManagementSystem\\Program.cs",
               "RelativeToolTip": "FitnessProgramManagementSystem\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-11T04:01:40.237Z",
               "EditorCaption": ""
