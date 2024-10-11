@@ -9,10 +9,12 @@ namespace FitnessProgramManagementSystem
 {
     internal class FitnessProgramManager
     {
-        public List<FitnessProgram> FitnessProgramList=new List<FitnessProgram>();
+        public List<FitnessProgram> FitnessProgramList = new List<FitnessProgram>();
 
-        public void CreateFitnessProgram (FitnessProgram fitnessProgram)
+        public void CreateFitnessProgram(FitnessProgram fitnessProgram)
         {
+            decimal price=ValidatePrice(fitnessProgram.GetPrice());
+            fitnessProgram.SetPrice(price.ToString());
             FitnessProgramList.Add(fitnessProgram);
             Console.WriteLine("Program Added successfully");
         }
@@ -26,15 +28,15 @@ namespace FitnessProgramManagementSystem
         }
         public void UpdateFitnessProgram(FitnessProgram fitnessProgram)
         {
-            var UpdateProgram=FitnessProgramList.SingleOrDefault(i=>i.GetFitnessProgramId()== fitnessProgram.GetFitnessProgramId());
-            if (UpdateProgram ==null)
+            var UpdateProgram = FitnessProgramList.SingleOrDefault(i => i.GetFitnessProgramId() == fitnessProgram.GetFitnessProgramId());
+            if (UpdateProgram == null)
             {
                 Console.WriteLine("Program not founded");
             }
             else
             {
                 FitnessProgramList.Remove(UpdateProgram);
-                FitnessProgramList.Add(fitnessProgram );
+                FitnessProgramList.Add(fitnessProgram);
                 Console.WriteLine("Program Udated Successfully");
             }
         }
@@ -51,6 +53,21 @@ namespace FitnessProgramManagementSystem
                 Console.WriteLine("Program deleted Successfully");
             }
         }
-
+        public decimal ValidatePrice(string price)
+        {
+            decimal priceDecimal = decimal.Parse(price);
+            while (true)
+            {
+                if (priceDecimal > 0)
+                {
+                    return priceDecimal;
+                }
+                else
+                {
+                    Console.WriteLine("Invalid price\n Please try again");
+                    priceDecimal = decimal.Parse(Console.ReadLine());
+                }
+            }
+        }
     }
 }

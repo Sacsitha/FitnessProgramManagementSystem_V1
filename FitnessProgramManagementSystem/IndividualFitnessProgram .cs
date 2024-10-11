@@ -22,9 +22,10 @@ namespace FitnessProgramManagementSystem
             SubscriptionType = subscriptionType;
             NeedPersonalTrainer = needPersonalTrainer;
         }
-        public void DisplayIndividualFitnessProgramInfo()
+        public override string DisplayFitnessProgramInfo()
         {
-            Console.WriteLine($"fitnessProgramId :{GetFitnessProgramId()} \ntitle :{GetTitle()}\nduration :{GetDuration()} \nprice :{GetPrice()}\n SubscriptionType :{SubscriptionType} \n NeedPersonalTrainer :{NeedPersonalTrainer}");
+            base.DisplayFitnessProgramInfo();
+            return $" fitnessProgramId :{GetFitnessProgramId()} \ntitle :{GetTitle()}\nduration :{GetDuration()} \nprice :{GetPrice()} \nSubscriptionType :{SubscriptionType} \n NeedPersonalTrainer :{NeedPersonalTrainer}";
         }
     }
 }

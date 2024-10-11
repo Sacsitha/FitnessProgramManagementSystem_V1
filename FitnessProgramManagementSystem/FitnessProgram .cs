@@ -13,6 +13,7 @@ namespace FitnessProgramManagementSystem
         private string title { get; set; }
         private string duration { get; set; }
         private string price { get; set; }
+        public static int TotalFitnessPrograms { get; set; }
 
         public FitnessProgram(string FitnessProgramId, string Title, string Duration, string Price)
         {
@@ -20,11 +21,13 @@ namespace FitnessProgramManagementSystem
             title = Title;
             duration = Duration;
             price = Price;
+            TotalFitnessPrograms++;
         }
         
 
         public FitnessProgram()
         {
+            TotalFitnessPrograms++;
         }
 
         public string GetFitnessProgramId()
@@ -43,13 +46,14 @@ namespace FitnessProgramManagementSystem
         {
             return price;
         }
+        public string SetPrice(string price) => this.price = price;
         public override string ToString()
         {
             return $"fitnessProgramId :{fitnessProgramId} \ntitle :{title}\nduration :{duration} \nprice :{price}";
         }
-        public virtual void DisplayFitnessProgramInfo()
+        public virtual string DisplayFitnessProgramInfo()
         {
-            Console.WriteLine($"fitnessProgramId :{fitnessProgramId} \ntitle :{title}\nduration :{duration} \nprice :{price}");
+            return $"fitnessProgramId :{fitnessProgramId} \ntitle :{title}\nduration :{duration} \nprice :{price}";
         }
     }
 

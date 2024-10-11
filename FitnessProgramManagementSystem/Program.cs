@@ -74,6 +74,42 @@ namespace FitnessProgramManagementSystem
 
             return id;
         }
+        //public static Fitn FitnessProgram()
+        //{
+        //    Console.WriteLine("fitnessProgramId :");
+        //    string id = Console.ReadLine();
+        //    Console.WriteLine("fitnessProgram Title :");
+        //    string Title = Console.ReadLine();
+        //    Console.WriteLine("fitnessProgram Duration :");
+        //    string Duration = Console.ReadLine();
+        //    Console.WriteLine("fitnessProgram Price :");
+        //    string Price = Console.ReadLine();
+        //    Console.WriteLine("Choose Program Type :");
+        //    Console.WriteLine("1. :Individual Fitness Program");
+        //    Console.WriteLine("2. :Group Fitness Program");
+        //    string option = Console.ReadLine();
+        //    switch (option)
+        //    {
 
-    }
+        //        case "1":
+        //            Console.WriteLine("fitnessProgram SubscriptionType :");
+        //            string SubscriptionType = Console.ReadLine();
+        //            Console.WriteLine("fitnessProgram NeedPersonalTrainer :");
+        //            string NeedPersonalTrainer = Console.ReadLine();
+        //            FitnessProgram fitnessProgram = new IndividualFitnessProgram(id, Title, Duration, Price, SubscriptionType, NeedPersonalTrainer);
+        //            return fitnessProgram;
+        //            break;
+        //        case "2":
+        //            Console.WriteLine("fitnessProgram Schedule :");
+        //            string Schedule = Console.ReadLine();
+        //            Console.WriteLine("fitnessProgram GroupCapacity :");
+        //            string GroupCapacity = Console.ReadLine();
+        //            FitnessProgram fitnessProgram1 = new GroupFitnessProgram(id, Title, Duration, Price, Schedule, GroupCapacity);
+        //            return fitnessProgram1;
+        //            break;
+
+
+        //    }
+
+        }
 }

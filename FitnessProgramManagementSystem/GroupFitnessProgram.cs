@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,10 +20,12 @@ namespace FitnessProgramManagementSystem
             Schedule = schedule;
             GroupCapacity = groupCapacity;
         }
-        public void DisplayGroupFitnessProgramInfo()
+        public override string DisplayFitnessProgramInfo()
         {
-            Console.WriteLine($"fitnessProgramId :{GetFitnessProgramId()} \ntitle :{GetTitle()}\nduration :{GetDuration()} \nprice :{GetPrice()}\n Schedule :{Schedule} \n GroupCapacity :{GroupCapacity}");
+            base.DisplayFitnessProgramInfo();
+            return $"fitnessProgramId :{GetFitnessProgramId()} \ntitle :{GetTitle()}\nduration :{GetDuration()} \nprice :{GetPrice()} \nSchedule :{Schedule} \n GroupCapacity :{GroupCapacity}";
         }
+
     }
  
 }
